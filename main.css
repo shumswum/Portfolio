@@ -1,20 +1,112 @@
-html, 
+html,
 body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .landing {
-  color: red;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  background: linear-gradient(-45deg, #ee1f82, #00d341, #3b45aa, #f92c13);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 
-#particle-canvas {
-  width: 100%;
-  height: 100%;
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .my-name {
-    color: white;
+  color: white;
+  font-size: 80px;
+  margin: 20px 0;
+  font-family: "amatic SC", sans-serif;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.name-container {
+  text-align: center;
+  border: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(90, 90, 90, 0.5);
+}
+
+.name-moto {
+  font-size: 60px;
+  font-family: "amatic SC", sans-serif;
+  color: white;
+  margin: 0;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  align-self: flex-end;
+  position: absolute;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.fa-arrow-circle-down {
+  font-size: 50px;
+}
+
+.arrow:hover {
+  color: black;
+}
+
+.skill-style {
+  width: 80px;
+}
+
+.skills {
+  text-align: center;
+  margin: 20px 10%;
+}
+
+.skill-float {
+  float: left;
+  margin: 20px 4%;
 }

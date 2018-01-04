@@ -212,6 +212,23 @@ body {
   display: flex;
 }
 
+.navbar {
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
 @media (max-width: 1439px) { 
   .port-top {
     display: flex;

@@ -200,6 +200,11 @@ body {
   max-width: 720px;
   max-height: 419px;
   flex: 1;
+  border: 1px solid black;
+}
+
+.port-image:hover {
+  filter: grayscale(80%);
 }
 
 .port-top {

@@ -197,10 +197,14 @@ body {
 }
 
 .port-image {
-  max-width: 720px;
-  max-height: 419px;
+  max-width: 100%;
+  max-height: 100%;
   flex: 1;
-  border: 1px solid black;
+  display: block;
+}
+
+.image-link {
+  margin: 0;
 }
 
 .port-image:hover {
@@ -210,11 +214,13 @@ body {
 .port-top {
   display: flex;
   justify-content:  center;
+  margin: 80px 10% 0 10%;
 }
 
 .port-bottom {
   justify-content: center;
   display: flex;
+  margin: 0 10% 80px 10%;
 }
 
 .navbar {
@@ -232,6 +238,20 @@ body {
   margin: 0 10px;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
+}
+
+.footer {
+  height: 60px;
+  text-align: center;
+  background-color: #3b45aa;
+  border-top: 3px solid black;
+}
+
+.footer-image {
+  max-width: 80%;
+  max-height: 80%;
+  margin-right: 2%;
+  margin-top: 6px;
 }
 
 @media (max-width: 1439px) { 

@@ -85,4 +85,14 @@ $(document).ready(() => {
         500
     );
   });
+
+  $('.teletype').hover(
+    () => {
+      $('.teletype').append($("<h1 class=\"centered\">Origin Teletype Tool</h1>"));
+      $('.teletype').append($("<h4 class=\"below-centered\">Click to demo!</h4>"));
+    }, () => {
+      $('.teletype').find("h1:last").remove();
+      $('.teletype').find("h4:last").remove();
+    }
+  );
 });

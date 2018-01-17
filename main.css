@@ -226,13 +226,17 @@ body {
 .port-top {
   display: flex;
   justify-content:  center;
-  margin: 80px 7% 0 7%;
+  margin: 80px 15% 0 15%;
+}
+
+.teletype-image {
+  background-image: url('teletype.png');
 }
 
 .port-bottom {
   justify-content: center;
   display: flex;
-  margin: 0 7% 80px 7%;
+  margin: 0 15% 80px 15%;
 }
 
 .navbar {
@@ -267,7 +271,10 @@ body {
   margin-top: 6px;
 }
 
-.teletype {
+.teletype,
+.vehicle,
+.mealhouse,
+.vstda {
   position: relative;
   text-align: center;
   color: white;
@@ -279,8 +286,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
+}
+
+.center-text {
+  margin-bottom: 20px;
 }
 
 .below-centered {
@@ -289,7 +300,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  font-size: .7em;
+  font-size: 1em;
   font-family: 'Montserrat', sans-serif;
 }
 

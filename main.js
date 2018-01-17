@@ -95,4 +95,34 @@ $(document).ready(() => {
       $('.teletype').find("h4:last").remove();
     }
   );
+
+  $('.vehicle').hover(
+    () => {
+      $('.vehicle').append($("<h1 class=\"centered\">Vehicle Manager</h1>"));
+      $('.vehicle').append($("<h4 class=\"below-centered\">Click to demo!</h4>"));
+    }, () => {
+      $('.vehicle').find("h1:last").remove();
+      $('.vehicle').find("h4:last").remove();
+    }
+  );
+
+  $('.mealhouse').hover(
+    () => {
+      $('.mealhouse').append($("<h1 class=\"centered\">Mealhouse</h1>"));
+      $('.mealhouse').append($("<h4 class=\"below-centered\">Click to demo!</h4>"));
+    }, () => {
+      $('.mealhouse').find("h1:last").remove();
+      $('.mealhouse').find("h4:last").remove();
+    }
+  );
+
+  $('.vstda').hover(
+    () => {
+      $('.vstda').append($("<h1 class=\"centered\">Very Simple Todo App</h1>"));
+      $('.vstda').append($("<h4 class=\"below-centered\">Click to demo!</h4>"));
+    }, () => {
+      $('.vstda').find("h1:last").remove();
+      $('.vstda').find("h4:last").remove();
+    }
+  );
 });

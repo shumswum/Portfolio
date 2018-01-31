@@ -168,14 +168,15 @@ body {
 }
 
 .form-inputs {
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
   border: 1px solid darkgray;
 }
 
 .button {
   margin-top: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .submit {
@@ -210,6 +211,7 @@ body {
 
 .image-link {
   margin: 0;
+  display: block;
 }
 
 .port-image:hover {
@@ -227,10 +229,6 @@ body {
   display: flex;
   justify-content:  center;
   margin: 80px 15% 0 15%;
-}
-
-.teletype-image {
-  background-image: url('teletype.png');
 }
 
 .port-bottom {
